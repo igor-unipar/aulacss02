@@ -1,0 +1,14 @@
+/* Estilos para o container e layout responsivo */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Define duas colunas iguais. '1fr' significa "1 fração" do espaço disponível, ou seja, cada coluna ocupa metade da largura do container */
+  gap: 1.5em;
+  padding: 1em;
+}
+
+/* Estilos responsivos: Aplica-se a telas com largura de 500px ou menos */
+@media (max-width: 500px) {
+  .container {
+    grid-template-columns: 1fr; /* Em telas menores, a grid terá apenas uma coluna */
+  }
+}

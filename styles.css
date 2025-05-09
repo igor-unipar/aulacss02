@@ -1,0 +1,7 @@
+/* Importando todos os arquivos CSS da pasta css */
+@import url("css/base/reset.css");
+@import url("css/base/typography.css");
+@import url("css/layout/header.css");
+@import url("css/layout/container.css");
+@import url("css/components/card.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
